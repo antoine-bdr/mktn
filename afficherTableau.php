@@ -20,7 +20,21 @@
 				<td colspan="2">Cassette 6</td>
 
 			</tr>
-	
+				<tr>
+					<td> A </td>
+					<td> B </td>
+					<td> C </td>
+					<td> D </td>
+					<td> E </td>
+					<td> F </td>
+					<td> G </td>
+					<td> H </td>
+					<td> I </td>
+					<td> J </td>
+					<td> K </td>
+					<td> L </td>
+					
+				</tr>
 		<?php
 
 
