@@ -9,7 +9,7 @@
 <ul id="menu_horizontal">
 <li class="bouton_gauche"><a href="index.php"> Création PM</a></li>
 <li class="bouton_gauche"><a href="remplirTableau.php"> Remplir PM</a></li>
-<li class="bouton_gauche"><a href="#"> Afficher</a></li>
+<li class="bouton_gauche"><a href="afficherTableau.php"> Afficher</a></li>
 </ul>
  
 </body>
