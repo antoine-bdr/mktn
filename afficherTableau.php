@@ -6,6 +6,7 @@
 <body>
 	<table border="1">
 		<?php
+		$k=0;
 		for ($t=1; $t<=4; $t++){
 
 
@@ -36,8 +37,8 @@
 					
 				</tr>
 		<?php
-				
-					for($i = 1; $i <= 12; $i++)
+				    
+					for($i = $k; $i <= 12; $i++)
 					{ 
 				
 						echo "<tr>";
@@ -48,7 +49,6 @@
 							
 							echo "<td>$k</td>";
 							$k=$k+12;
-							$k*$t;
 						}
 						
 						echo "</tr>";
