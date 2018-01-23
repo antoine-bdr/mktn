@@ -5,7 +5,12 @@
 </head>
 <body>
 	<table border="1">
-		<caption>Tete 1</caption>
+		<?php
+		for ($t=1; $t<=4; $t++){
+
+
+		?>
+		<tr><td colspan="12">Tete <?php echo $t?></caption>
 			<tr>
 				<td colspan="2">Cassette 1</td>
 				<td colspan="2">Cassette 2</td>
@@ -17,6 +22,8 @@
 			</tr>
 	
 		<?php
+
+
 				
 					for($i = 1; $i <= 12; $i++)
 					{ 
@@ -33,7 +40,9 @@
 						
 						echo "</tr>";
 					
-					} ?>
+					}
+		} 
+					 ?>
 				
 
 		</table>
