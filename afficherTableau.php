@@ -46,8 +46,9 @@
 						for($j=1; $j<=12; $j++)
 						{
 							
-							echo "<td>$k*$t</td>";
+							echo "<td>$k</td>";
 							$k=$k+12;
+							$k*$t;
 						}
 						
 						echo "</tr>";
