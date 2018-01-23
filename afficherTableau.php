@@ -24,7 +24,7 @@
 						echo "<tr>";
 					
 						$k=$i;
-						for($j=1; $j<12; $j++)
+						for($j=1; $j<=12; $j++)
 						{
 							
 							echo "<td>$k</td>";
