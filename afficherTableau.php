@@ -4,15 +4,15 @@
 	<title></title>
 </head>
 <body>
-	<table>
+	<table border="1">
 		<caption>Tete 1</caption>
 			<tr>
-				<th>Cassette 1</th>
-				<th>Cassette 2</th>
-				<th>Cassette 3</th>
-				<th>Cassette 4</th>
-				<th>Cassette 5</th>
-				<th>Cassette 6</th>
+				<td colspan="2">Cassette 1</td>
+				<td colspan="2">Cassette 2</td>
+				<td colspan="2">Cassette 3</td>
+				<td colspan="2">Cassette 4</td>
+				<td colspan="2">Cassette 5</td>
+				<td colspan="2">Cassette 6</td>
 
 			</tr>
 	
