@@ -1,9 +1,10 @@
 ul#menu_horizontal { 
-width : 1000px; 
+width : 1250px; 
 height : 30px;
 margin : 2em 0 0 0;
 padding : 0;
 border : 1px solid;
+border-bottom: none;
 list-style-type : none; 
 }
  
@@ -25,3 +26,10 @@ padding : 0 1em;
  
 ul#menu_horizontal a:hover { text-decoration : underline; }
  
+tr.cassette{
+	border-bottom: none;
+}
+
+td.lettre{
+	border-top: none;
+}
