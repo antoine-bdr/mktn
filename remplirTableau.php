@@ -39,7 +39,7 @@ if (isset($_POST['bouton'])) {
                   {
                     ?>
                   
-                  <option value="<?php echo $donneePM['idPM']; ?>"> <?php echo $donneePM['numPM']."- ".$donneePM['adresse']; ?> </option>
+                  <option value="<?php echo $donneePM['idPM']; ?>"> <?php echo $donneePM['idPM']."- ".$donneePM['numPM']; ?> </option>
 
                   <?php
                   }

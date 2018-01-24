@@ -4,6 +4,8 @@ $bdd = new PDO('mysql:host=localhost;dbname=tableaumktn;charset=utf8', 'root', '
 ini_set( 'display_errors', 'on' );
 error_reporting( E_ALL );
 
+
+
 if (isset($_POST['bouton'])) {
 
         //Insertion des données dans la bdd
@@ -17,6 +19,21 @@ if (isset($_POST['bouton'])) {
               'adresse' => $adresse
                ));
 
+/*        $i =1;
+        while ($i <= 4) {
+
+        
+        $libelleTete = "test ";
+
+        $req = $bdd->prepare('INSERT INTO tete(libelleTete, idPM) VALUES(:libelleTete, LAST_INSERT_ID())');
+        
+        $req->execute(array(
+              ':libelleTete' => $libelleTete
+               ));
+        $i++;
+        }
+
+        $message = "PM ajouté"; */
     } 
 
 ?>
