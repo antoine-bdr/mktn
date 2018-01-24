@@ -9,14 +9,19 @@ error_reporting( E_ALL );
 if (isset($_POST['bouton'])) {
 
         //Insertion des données dans la bdd
-        $numPM = htmlspecialchars(trim($_POST['numPM']));
-        $adresse = htmlspecialchars(trim($_POST['adresse']));
+        $cassette = htmlspecialchars(trim($_POST['cassette']));
+        $epissure = htmlspecialchars(trim($_POST['epissure']));
+        $PA = htmlspecialchars(trim($_POST['PA']));
+        $TR = htmlspecialchars(trim($_POST['TR']));
+        $PB = htmlspecialchars(trim($_POST['PB']));
 
-        $req = $bdd->prepare('INSERT INTO connexion(numPM, adresse) VALUES(:numPM, :adresse)');
+
+
+
+        $req = $bdd->prepare('INSERT INTO fibre(libelleFibre) VALUES(:libelleFibre)');
         
         $req->execute(array(
-              'numPM' => $numPM,
-              'adresse' => $adresse
+              'libelleFibre' => $libelle
                ));
 
             $message= "Création du tableau en cours";

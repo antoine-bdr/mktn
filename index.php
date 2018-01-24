@@ -12,7 +12,7 @@ if (isset($_POST['bouton'])) {
         $numPM = htmlspecialchars(trim($_POST['numPM']));
         $adresse = htmlspecialchars(trim($_POST['adresse']));
 
-        $req = $bdd->prepare('INSERT INTO pointmutualisation(numPM, adresse) VALUES(:numPM, :adresse)');
+        $req = $bdd->prepare('INSERT INTO pm(numPM, adresse) VALUES(:numPM, :adresse)');
         
         $req->execute(array(
               'numPM' => $numPM,
