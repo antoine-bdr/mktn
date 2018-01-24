@@ -15,13 +15,13 @@ if (isset($_POST['bouton'])) {
         $TR = htmlspecialchars(trim($_POST['TR']));
         $PB = htmlspecialchars(trim($_POST['PB']));
 
-
-
-
-        $req = $bdd->prepare('INSERT INTO fibre(libelleFibre) VALUES(:libelleFibre)');
+        $req = $bdd->prepare('INSERT INTO fibre(PA, TR, PB, idPM) VALUES(:PA, :TR, :PB, :idPM)');
         
         $req->execute(array(
-              'libelleFibre' => $libelle
+              ':PA' => $PA,
+              ':TR' => $TR,
+              ':PB' => $PB,
+              ':idPM' => $_SESSION['idPM']
                ));
 
             $message= "Création du tableau en cours";
